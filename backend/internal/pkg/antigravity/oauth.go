@@ -71,7 +71,7 @@ var (
 var ClientID = ""
 
 // defaultClientSecret 可通过环境变量 ANTIGRAVITY_OAUTH_CLIENT_SECRET 配置
-var defaultClientSecret = "REPLACED_DUE_TO_GITHUB_PUSH_PROTECTION"
+var defaultClientSecret = ""
 
 func init() {
 	if id := os.Getenv(AntigravityOAuthClientIDEnv); id != "" {

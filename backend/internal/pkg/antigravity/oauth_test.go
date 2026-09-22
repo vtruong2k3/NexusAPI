@@ -680,14 +680,14 @@ func TestConstants_值正确(t *testing.T) {
 	if UserInfoURL != "https://www.googleapis.com/oauth2/v2/userinfo" {
 		t.Errorf("UserInfoURL 不匹配: got %s", UserInfoURL)
 	}
-	if ClientID != "REPLACED_DUE_TO_GITHUB_PUSH_PROTECTION.apps.googleusercontent.com" {
+	if ClientID != "" {
 		t.Errorf("ClientID 不匹配: got %s", ClientID)
 	}
 	secret, err := getClientSecret()
 	if err != nil {
 		t.Fatalf("getClientSecret 应返回默认值，但报错: %v", err)
 	}
-	if secret != "REPLACED_DUE_TO_GITHUB_PUSH_PROTECTION" {
+	if secret != "" {
 		t.Errorf("默认 client_secret 不匹配: got %s", secret)
 	}
 	if RedirectURI != "http://localhost:8085/callback" {
