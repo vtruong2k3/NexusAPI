@@ -109,6 +109,112 @@ export default {
       description: 'Sign up now and get free trial credits to experience seamless AI access',
       button: 'Sign Up Free'
     },
+    storefront: {
+      register: 'Create account',
+      viewPrices: 'See prices',
+      headline: 'One API key for Claude, GPT, and Gemini.',
+      subhead: 'Call the models this site has open. Pay from a balance, a subscription, or a redeem code.',
+      nav: {
+        models: 'Models',
+        offers: 'Ways to pay',
+        connect: 'Connect'
+      },
+      trust: {
+        openai: 'OpenAI-compatible',
+        anthropic: 'Anthropic-compatible',
+        billing: 'Billed by token, request, or image',
+        logs: 'A log for every request'
+      },
+      offers: {
+        title: 'Ways to pay',
+        walletEyebrow: 'Balance',
+        walletTitle: 'Pay per call',
+        walletBody: 'Add balance and spend it as you call models. Fits work that comes and goes.',
+        walletCta: 'Add balance',
+        subscriptionEyebrow: 'Subscription',
+        subscriptionTitle: 'A quota for the month',
+        subscriptionBody: 'A group quota for steady use, beside the running balance.',
+        subscriptionCta: 'View plans',
+        redeemEyebrow: 'Redeem code',
+        redeemTitle: 'Use a code you already have',
+        redeemBody: 'A code can add balance or open a model group. It applies as soon as you redeem it.',
+        redeemCta: 'Redeem a code'
+      },
+      shelf: {
+        title: 'Models and standard prices',
+        description: 'Standard rates from the model catalog. Peak hours and long-context tiers are on the full price list.',
+        viewAll: 'View all models',
+        model: 'Model',
+        platform: 'Platform',
+        input: 'Input',
+        output: 'Output',
+        price: 'Price',
+        pricesUnavailable: 'Prices are not published on this page yet.',
+        perMillion: '/ 1M tokens'
+      },
+      connect: {
+        title: 'Connect in four steps',
+        step1Title: 'Create an account',
+        step1Body: 'Use the button in the header to sign up or sign in.',
+        step2Title: 'Add a way to pay',
+        step2Body: 'Add balance, buy a subscription, or redeem a code.',
+        step3Title: 'Create an API key',
+        step3Body: 'On the Keys page, create a key and choose the model group it can call.',
+        step4Title: 'Point your client at this site',
+        step4Body: 'Paste the base URL and the key into Claude Code, Codex, Gemini CLI, or any OpenAI or Anthropic client.',
+        snippetLabel: 'Example request',
+        copy: 'Copy',
+        copied: 'Copied'
+      },
+      assurance: {
+        title: 'You can see the spend',
+        priceTitle: 'Prices before you call',
+        priceBody: 'The catalog lists the rate for each model.',
+        usageTitle: 'Usage by key and by day',
+        usageBody: 'The Usage page records each request, the model, and the cost.',
+        limitsTitle: 'Limits on each key',
+        limitsBody: 'A key can carry a balance cap, a request rate, and a daily or weekly limit.',
+        failoverTitle: 'Another channel when one fails',
+        failoverBody: 'A failed channel hands the request to another open channel.',
+        monitor: 'Channel status'
+      },
+      compare: {
+        title: 'What this site includes',
+        feature: 'Item',
+        value: 'On this site',
+        priceFeature: 'Price',
+        priceValue: 'The published rate for each call',
+        modelsFeature: 'Models',
+        modelsValue: 'One key for every model this site publishes',
+        dashboardFeature: 'Dashboard',
+        dashboardValue: 'Balance, keys, and usage on one page',
+        limitsFeature: 'Limits',
+        limitsValue: 'A cap, a request rate, and a daily or weekly limit on each key'
+      },
+      faq: {
+        title: 'Questions',
+        billingQ: 'When is the balance charged?',
+        billingA: 'Each call is charged at the model rate in the catalog. This page shows the standard rate. The model list shows peak hours and long-context tiers.',
+        expiryQ: 'When does a key expire?',
+        expiryA: 'You set the expiry when you create the key. A key with no expiry stays until you delete it.',
+        clientsQ: 'Which clients can connect?',
+        clientsA: 'Any client that accepts an OpenAI or Anthropic base URL, including Claude Code, Codex, and Gemini CLI.',
+        logsQ: 'Where are the request logs?',
+        logsA: 'The Usage page lists requests by key, model, and day.',
+        contactQ: 'How do I reach someone?',
+        contactA: 'Use the contact line below when the operator has published one, or the documentation link in the footer.'
+      },
+      stage: {
+        listLabel: 'Models on the routing stage',
+        decorativeHint: 'Prices appear here once the model catalog is open.',
+        input: 'Input',
+        output: 'Output'
+      },
+      footer: {
+        models: 'Models',
+        login: 'Log in'
+      }
+    },
     footer: {
       allRightsReserved: 'All rights reserved.'
     }

@@ -104,6 +104,112 @@ export default {
       description: 'Đăng ký ngay và nhận credit dùng thử miễn phí để trải nghiệm truy cập AI liền mạch',
       button: 'Đăng ký miễn phí'
     },
+    storefront: {
+      register: 'Tạo tài khoản',
+      viewPrices: 'Xem giá',
+      headline: 'Một API key cho Claude, GPT và Gemini.',
+      subhead: 'Gọi các model site đang mở. Trả bằng số dư, gói đăng ký, hoặc mã đổi thưởng.',
+      nav: {
+        models: 'Mô hình',
+        offers: 'Cách trả',
+        connect: 'Gắn key'
+      },
+      trust: {
+        openai: 'Tương thích OpenAI',
+        anthropic: 'Tương thích Anthropic',
+        billing: 'Tính theo token, request hoặc ảnh',
+        logs: 'Có log từng request'
+      },
+      offers: {
+        title: 'Cách trả tiền',
+        walletEyebrow: 'Số dư',
+        walletTitle: 'Trả theo từng lượt gọi',
+        walletBody: 'Nạp số dư và trừ dần khi gọi model. Hợp việc dùng không đều.',
+        walletCta: 'Nạp số dư',
+        subscriptionEyebrow: 'Gói đăng ký',
+        subscriptionTitle: 'Hạn mức cho cả tháng',
+        subscriptionBody: 'Quota theo nhóm khi dùng đều, song song với ví trừ theo lượt.',
+        subscriptionCta: 'Xem gói',
+        redeemEyebrow: 'Mã đổi thưởng',
+        redeemTitle: 'Dùng mã bạn đang có',
+        redeemBody: 'Mã có thể cộng số dư hoặc mở một nhóm model. Có hiệu lực ngay khi đổi.',
+        redeemCta: 'Đổi mã'
+      },
+      shelf: {
+        title: 'Model và giá chuẩn',
+        description: 'Giá lấy từ khung giờ chuẩn của chợ model. Giờ cao điểm và bậc ngữ cảnh dài nằm ở bảng giá đầy đủ.',
+        viewAll: 'Xem tất cả mô hình',
+        model: 'Mô hình',
+        platform: 'Nền tảng',
+        input: 'Đầu vào',
+        output: 'Đầu ra',
+        price: 'Giá',
+        pricesUnavailable: 'Trang này chưa công bố giá.',
+        perMillion: '/ 1 triệu token'
+      },
+      connect: {
+        title: 'Gắn vào việc đang làm, bốn bước',
+        step1Title: 'Tạo tài khoản',
+        step1Body: 'Dùng nút trên đầu trang để đăng ký hoặc đăng nhập.',
+        step2Title: 'Chọn cách trả',
+        step2Body: 'Nạp số dư, mua gói, hoặc đổi mã.',
+        step3Title: 'Tạo API key',
+        step3Body: 'Ở trang Khóa API, tạo một key và chọn nhóm model key đó được gọi.',
+        step4Title: 'Trỏ client về site này',
+        step4Body: 'Dán Base URL và key vào Claude Code, Codex, Gemini CLI, hoặc client tương thích OpenAI hay Anthropic.',
+        snippetLabel: 'Request mẫu',
+        copy: 'Chép',
+        copied: 'Đã chép'
+      },
+      assurance: {
+        title: 'Thấy tiền đi đâu',
+        priceTitle: 'Xem giá trước khi gọi',
+        priceBody: 'Chợ model liệt kê mức giá của từng model.',
+        usageTitle: 'Usage theo key và theo ngày',
+        usageBody: 'Trang Lịch sử sử dụng ghi từng request, model và chi phí.',
+        limitsTitle: 'Hạn mức trên từng key',
+        limitsBody: 'Mỗi key có thể có trần số dư, tốc độ request, và hạn mức theo ngày hoặc theo tuần.',
+        failoverTitle: 'Chuyển kênh khi một kênh lỗi',
+        failoverBody: 'Kênh lỗi thì request được chuyển sang kênh khác đang mở.',
+        monitor: 'Trạng thái kênh'
+      },
+      compare: {
+        title: 'Site này gồm những gì',
+        feature: 'Mục',
+        value: 'Trên site này',
+        priceFeature: 'Giá',
+        priceValue: 'Mỗi lượt gọi tính theo mức đã công bố',
+        modelsFeature: 'Model',
+        modelsValue: 'Một key cho mọi model site đang công bố',
+        dashboardFeature: 'Bảng điều khiển',
+        dashboardValue: 'Số dư, key và usage trên một trang',
+        limitsFeature: 'Hạn mức',
+        limitsValue: 'Trần số dư, tốc độ request, hạn ngày hoặc tuần trên từng key'
+      },
+      faq: {
+        title: 'Câu hỏi',
+        billingQ: 'Số dư bị trừ lúc nào?',
+        billingA: 'Mỗi lượt gọi trừ theo giá model trong chợ. Trang này hiện giá khung giờ chuẩn. Danh sách model hiện giờ cao điểm và bậc ngữ cảnh dài.',
+        expiryQ: 'Key hết hạn khi nào?',
+        expiryA: 'Bạn đặt thời điểm hết hạn lúc tạo key. Key không đặt hạn thì giữ đến khi bạn xóa.',
+        clientsQ: 'Client nào gắn được?',
+        clientsA: 'Mọi client nhận Base URL kiểu OpenAI hoặc Anthropic, gồm Claude Code, Codex và Gemini CLI.',
+        logsQ: 'Log request nằm ở đâu?',
+        logsA: 'Trang Lịch sử sử dụng liệt kê request theo key, model và ngày.',
+        contactQ: 'Liên hệ ai khi cần?',
+        contactA: 'Khi người vận hành đã để thông tin liên hệ, dùng dòng bên dưới. Hoặc mở tài liệu ở chân trang.'
+      },
+      stage: {
+        listLabel: 'Model trên sân định tuyến',
+        decorativeHint: 'Giá sẽ hiện ở đây khi chợ model được mở.',
+        input: 'Đầu vào',
+        output: 'Đầu ra'
+      },
+      footer: {
+        models: 'Mô hình',
+        login: 'Đăng nhập'
+      }
+    },
     footer: {
       allRightsReserved: 'Mọi quyền được bảo lưu.'
     }

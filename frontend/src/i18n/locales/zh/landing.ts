@@ -109,6 +109,112 @@ export default {
       description: '注册即可获得免费试用额度，体验一站式 AI 服务',
       button: '免费注册'
     },
+    storefront: {
+      register: '创建账户',
+      viewPrices: '查看价格',
+      headline: '一把 API Key，调用 Claude、GPT 和 Gemini。',
+      subhead: '调用本站已开放的模型。用余额、订阅或兑换码支付。',
+      nav: {
+        models: '模型',
+        offers: '支付方式',
+        connect: '接入'
+      },
+      trust: {
+        openai: '兼容 OpenAI',
+        anthropic: '兼容 Anthropic',
+        billing: '按 token、请求或图片计费',
+        logs: '每次请求都有日志'
+      },
+      offers: {
+        title: '支付方式',
+        walletEyebrow: '余额',
+        walletTitle: '按调用付费',
+        walletBody: '充值余额，调用模型时扣费。适合用量不固定的工作。',
+        walletCta: '充值余额',
+        subscriptionEyebrow: '订阅',
+        subscriptionTitle: '一个月的配额',
+        subscriptionBody: '用量稳定时使用分组配额，与按余额扣费并行。',
+        subscriptionCta: '查看套餐',
+        redeemEyebrow: '兑换码',
+        redeemTitle: '使用已有兑换码',
+        redeemBody: '兑换码可以增加余额或开通模型分组，兑换后立即生效。',
+        redeemCta: '兑换'
+      },
+      shelf: {
+        title: '模型与标准价格',
+        description: '价格来自模型目录的标准时段。高峰时段和长上下文分档见完整价目。',
+        viewAll: '查看全部模型',
+        model: '模型',
+        platform: '平台',
+        input: '输入',
+        output: '输出',
+        price: '价格',
+        pricesUnavailable: '此页尚未公布价格。',
+        perMillion: '/ 1M token'
+      },
+      connect: {
+        title: '四步完成接入',
+        step1Title: '创建账户',
+        step1Body: '使用页头按钮注册或登录。',
+        step2Title: '选择支付方式',
+        step2Body: '充值余额、购买订阅，或兑换码。',
+        step3Title: '创建 API Key',
+        step3Body: '在密钥页创建一把密钥，并选择它可以调用的模型分组。',
+        step4Title: '把客户端指向本站',
+        step4Body: '把 Base URL 和密钥填进 Claude Code、Codex、Gemini CLI，或任何兼容 OpenAI / Anthropic 的客户端。',
+        snippetLabel: '示例请求',
+        copy: '复制',
+        copied: '已复制'
+      },
+      assurance: {
+        title: '花费可以核对',
+        priceTitle: '调用前先看价格',
+        priceBody: '目录列出每个模型的费率。',
+        usageTitle: '按密钥、按天查看用量',
+        usageBody: '用量页记录每次请求、模型和费用。',
+        limitsTitle: '每把密钥单独限额',
+        limitsBody: '一把密钥可以设置余额上限、请求速率，以及每日或每周限额。',
+        failoverTitle: '一条通道失败时改走另一条',
+        failoverBody: '通道失败时，请求会转到另一条可用通道。',
+        monitor: '通道状态'
+      },
+      compare: {
+        title: '本站包含的内容',
+        feature: '项目',
+        value: '本站',
+        priceFeature: '价格',
+        priceValue: '每次调用按已公布的费率计费',
+        modelsFeature: '模型',
+        modelsValue: '一把密钥调用本站公布的全部模型',
+        dashboardFeature: '控制台',
+        dashboardValue: '余额、密钥和用量在同一页',
+        limitsFeature: '限额',
+        limitsValue: '每把密钥可设上限、请求速率和每日或每周限额'
+      },
+      faq: {
+        title: '常见问题',
+        billingQ: '余额什么时候扣除？',
+        billingA: '每次调用按目录中的模型费率扣除。本页展示标准费率。模型列表展示高峰时段和长上下文分档。',
+        expiryQ: '密钥什么时候过期？',
+        expiryA: '创建密钥时由你设置过期时间。未设置过期时间的密钥会一直保留，直到你删除它。',
+        clientsQ: '哪些客户端可以接入？',
+        clientsA: '任何接受 OpenAI 或 Anthropic Base URL 的客户端，包括 Claude Code、Codex 和 Gemini CLI。',
+        logsQ: '请求日志在哪里？',
+        logsA: '用量页按密钥、模型和日期列出请求。',
+        contactQ: '如何联系运营者？',
+        contactA: '运营者公布了联系方式时，使用下方联系信息；也可以使用页脚中的文档链接。'
+      },
+      stage: {
+        listLabel: '路由台上的模型',
+        decorativeHint: '模型目录开放后，此处会显示价格。',
+        input: '输入',
+        output: '输出'
+      },
+      footer: {
+        models: '模型',
+        login: '登录'
+      }
+    },
     footer: {
       allRightsReserved: '保留所有权利。'
     }

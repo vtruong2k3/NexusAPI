@@ -114,6 +114,12 @@ export default defineConfig(({ mode }) => {
          */
         manualChunks(id: string) {
           if (id.includes('node_modules')) {
+            // Trang chủ nạp three và font riêng. Để Rollup giữ chúng trong chunk async,
+            // không kéo vào vendor-misc vốn được mọi trang dùng.
+            if (id.includes('/three/') || id.includes('/@fontsource/be-vietnam-pro/') || id.includes('/@fontsource/ibm-plex-mono/')) {
+              return
+            }
+
             // Vue 核心库
             if (
               id.includes('/vue/') ||
